@@ -223,7 +223,7 @@ body {
 }
 
 .categories-cards .card p{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -238,7 +238,7 @@ body {
 }
 
 .more-categories button{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -262,7 +262,7 @@ body {
     line-height: 64px;
 }
 
-.new-vacancies p{
+.description{
     margin-top: 24px;
     margin-bottom: 81px;
     font-family: 'Raleway', sans-serif;
@@ -271,6 +271,11 @@ body {
     font-size: 20px;
     line-height: 23px;
     color: #4F4A4A;
+}
+
+.vacancies{
+    display: flex;
+    justify-content: space-between;
 }
 
 .vacancies .card{
@@ -282,16 +287,52 @@ body {
 }
 
 .vacancies .card .card-head{
+    margin-top: 26px;
+    margin-left: 29px;
     display: flex;
+    width: 121px;
+    height: 23px;
+    align-items: center;
+}
+
+.vacancies .card .card-head p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.53);
 }
 
 .vacancies .card .card-head img{
     width: 8px;
     height: 8px;
+    margin-right: 12px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
 }
 
 .card-footer{
     display: flex;
+    margin-left: 33px;
+}
+
+.location{
+    margin-bottom: 31px;
+    margin-left: 30px;
+}
+
+.location p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #302F2F;
 }
 
 .card-footer img{
@@ -299,4 +340,46 @@ body {
     height: 19px;
     display: flex;
     align-items: center;
+    margin-right: 16px;
+}
+
+.basic-info p{
+    margin: 40px 0 0 29px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.card:nth-child(2) .basic-info p{
+    margin: 40px 0 28px 29px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.more-vacancies{
+    align-self: center;
+}
+
+.more-vacancies button{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 78px;
+    width: 261px;
+    height: 105px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 38px 11px 85px rgba(0, 0, 0, 0.34);
+    border-radius: 50px;
+    cursor: pointer;
 }
