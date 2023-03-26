@@ -111,7 +111,7 @@ body {
 }
 
 .search-block p {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     font-size: 48px;
     line-height: 64px;
     color: var(--text-color);
@@ -172,8 +172,8 @@ body {
     justify-content: space-between;
 }
 
-.help p{
-    font-family: 'Raleway', sans-serif;
+.help p {
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -184,46 +184,46 @@ body {
     margin-right: 14px;
 }
 
-.wrapper{
+.wrapper {
     margin-top: 45px;
     display: flex;
     flex-direction: column;
 }
 
-.job-categories h1{
+.job-categories h1 {
     margin-top: 85px;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
 }
 
-.categories-cards{
+.categories-cards {
     display: flex;
 }
 
-.categories-cards .card{
+.categories-cards .card {
     display: flex;
-    flex-direction: column-reverse ;
+    flex-direction: column-reverse;
     justify-content: center;
     width: 229px;
     height: 178px;
     margin-right: 42px;
-    background: #FFFEFE;
+    background: #fffefe;
     box-shadow: 0px 11px 85px rgba(0, 0, 0, 0.34);
     border-radius: 50px;
 }
 
-.categories-cards .card img{
+.categories-cards .card img {
     width: 30px;
     height: 30px;
     margin-bottom: 35px;
     margin-left: 36px;
 }
 
-.categories-cards .card p{
-    font-family: 'Raleway', sans-serif;
+.categories-cards .card p {
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -231,14 +231,14 @@ body {
     text-align: center;
 }
 
-.more-categories{
+.more-categories {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.more-categories button{
-    font-family: 'Raleway', sans-serif;
+.more-categories button {
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -246,47 +246,47 @@ body {
     margin-top: 78px;
     width: 261px;
     height: 105px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: none;
     box-shadow: 38px 11px 85px rgba(0, 0, 0, 0.34);
     border-radius: 50px;
     cursor: pointer;
 }
 
-.new-vacancies h1{
+.new-vacancies h1 {
     margin-top: 167px;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
 }
 
-.description{
+.description {
     margin-top: 24px;
     margin-bottom: 81px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-    color: #4F4A4A;
+    color: #4f4a4a;
 }
 
-.vacancies{
+.vacancies {
     display: flex;
     justify-content: space-between;
 }
 
-.vacancies .card{
+.vacancies .card {
     width: 400px;
     height: 272px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 38px 11px 85px rgba(0, 0, 0, 0.34);
     border-radius: 37px;
 }
 
-.vacancies .card .card-head{
+.vacancies .card .card-head {
     margin-top: 26px;
     margin-left: 29px;
     display: flex;
@@ -295,8 +295,8 @@ body {
     align-items: center;
 }
 
-.vacancies .card .card-head p{
-    font-family: 'Red Hat Display', sans-serif;
+.vacancies .card .card-head p {
+    font-family: "Red Hat Display", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -305,37 +305,37 @@ body {
     color: rgba(0, 0, 0, 0.53);
 }
 
-.vacancies .card .card-head img{
+.vacancies .card .card-head img {
     width: 8px;
     height: 8px;
     margin-right: 12px;
 }
 
-.card-content{
+.card-content {
     display: flex;
     flex-direction: column;
 }
 
-.card-footer{
+.card-footer {
     display: flex;
     margin-left: 33px;
 }
 
-.location{
+.location {
     margin-bottom: 31px;
     margin-left: 30px;
 }
 
-.location p{
-    font-family: 'Raleway', sans-serif;
+.location p {
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #302F2F;
+    color: #302f2f;
 }
 
-.card-footer img{
+.card-footer img {
     width: 42px;
     height: 19px;
     display: flex;
@@ -343,9 +343,9 @@ body {
     margin-right: 16px;
 }
 
-.basic-info p{
+.basic-info p {
     margin: 40px 0 0 29px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -355,21 +355,21 @@ body {
     color: #000000;
 }
 
-.card:nth-child(2) .basic-info p{
+.card:nth-child(2) .basic-info p {
     margin: 40px 0 28px 29px;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
 }
 
-.more-vacancies{
+.more-vacancies {
     align-self: center;
 }
 
-.more-vacancies button{
-    font-family: 'Raleway', sans-serif;
+.more-vacancies button {
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -377,9 +377,79 @@ body {
     margin-top: 78px;
     width: 261px;
     height: 105px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: none;
     box-shadow: 38px 11px 85px rgba(0, 0, 0, 0.34);
     border-radius: 50px;
     cursor: pointer;
+}
+
+.main_footer {
+    background-color: white;
+}
+
+.main_footer .container {
+    padding-top: 70px;
+    padding-bottom: 48px;
+    margin-top: 72px;
+}
+
+.popular-cities h1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 37px;
+    color: #000000;
+}
+
+.cities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cities p {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+}
+
+.footer-basic-info {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    align-content: flex-end;
+}
+
+.footer-title {
+    margin-right: 370px;
+}
+
+.footer-title h1 {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.social-list li {
+    margin-right: 30px;
 }
